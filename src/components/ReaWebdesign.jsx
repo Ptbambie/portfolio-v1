@@ -13,8 +13,8 @@ import Norstone2 from '../assets/NortStone2.png';
 import Norstone3 from '../assets/NORSTONE-STYLE-F.jpg';
 import Norstone4 from '../assets/NORSTONE-STYLE-E.jpg';
 import Norstone5 from '../assets/NORSTONE-STYLE-D1.jpg';
-import StandFord from '../assets/StandFord.jpg';
-import StandFord2 from '../assets/Standford.png';
+import StandFord from '../assets/StandFord.png';
+import StandFord2 from '../assets/Standford.jpg';
 
 const projects = [
     {
