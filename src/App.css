@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+:root {
+  --main-color: #2044c0;
+  --second-color: #FFE4CA;
+  --third-color: #47e5c9;
+  --fourth-color: #f9f9f9;
+  --main-font: Roboto Mono, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#root,
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+p {
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}

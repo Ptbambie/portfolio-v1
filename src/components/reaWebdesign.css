@@ -1,0 +1,160 @@
+.contentWebdesign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 90em;
+    margin: 0 auto;
+  }
+  
+  .Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1em 0;
+    color: var(--main-color);
+  }
+  
+  .card-webdedign {
+    width: 18em;
+    margin: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .card-webdedign:hover {
+    box-shadow: 0px 0px 15px 0px rgba(182, 182, 182, 0.75);
+    background-color: rgba(0, 0, 0, 0.05)
+  }
+  
+  .card-webdedign h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    color: var(--main-color);
+  }
+  
+  .card-webdedign__img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card-webdedign p {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: var(--main-color);
+  }
+
+/* Modal styles */
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+    }
+  
+  .modal-content {
+    position: relative;
+    max-width: 60%;
+    max-height: 100%;
+    overflow: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    padding: 7em;
+  }
+  
+  .modal-content img {
+    width:80%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    object-fit: scale-down;
+    border: 1px solid #ccc;
+  }
+
+  .left {
+    color: var(--third-color);
+    float: left;
+  }
+  
+  .right {
+    color: var(--third-color);
+    float: right;
+  }
+
+  .close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--third-color);
+    cursor: pointer;
+  }
+  
+ /* Styles pour les boutons de la modal */
+ .prev-button,
+ .next-button {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 24px;
+   font-weight: bold;
+   color: #fff; 
+   border: none;
+   padding: 10px 15px;
+   border-radius: 50%;
+   cursor: pointer;
+   outline: none;
+ }
+ 
+ .prev-button {
+   left: 10px;
+ }
+ 
+ .next-button {
+   right: 10px;
+ } 
+
+
+/* Styles pour les écrans de taille comprise entre 481px et 767px */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .contentWebdesign {
+    justify-content: center;
+  }
+  
+  .card-webdedign {
+    width: 45%;
+  }
+}
+
+/* Styles pour les écrans de taille inférieure ou égale à 480px */
+@media screen and (max-width: 480px) {
+  .contentWebdesign {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-webdedign {
+    width: 90%;
+  }
+
+  .modal-content {
+    max-width: 90%;
+    padding: 2em;
+  }
+}
