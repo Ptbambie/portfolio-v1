@@ -4,7 +4,7 @@ import profil from '../assets/profil.jpg';
 import { FiArrowRight } from "react-icons/fi";
 import { PDFViewer, Document, Page } from '@react-pdf/renderer';
 import AudreyALAIME from "../assets/AudreyALAIME.pdf";
-import './Presentation.css';
+import './presentation.css';
 
 const Presentation = () => {
   return (

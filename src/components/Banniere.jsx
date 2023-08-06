@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaRegEye, FaCode, FaBullhorn } from "react-icons/fa";
 import { CgScreen} from "react-icons/Cg";
-import './Banniere.css'
+import './banniere.css'
 
 const Banniere = () => {
   return (
