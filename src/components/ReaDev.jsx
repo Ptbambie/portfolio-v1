@@ -2,7 +2,7 @@ import React from 'react';
 import TripPlanner from '../assets/TripPlanner.png';
 import LabelMarne from '../assets/LabelMarne.png';
 import Appolo from '../assets/Appolo.png';
-import './ReaDev.css';
+import './reaDev.css';
 
 const projects = [
   {
