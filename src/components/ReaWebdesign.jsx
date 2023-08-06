@@ -4,10 +4,10 @@ import Carat from '../assets/CaratV1.png';
 import CaratV2 from '../assets/CaratV2.png';
 import CaratV3 from '../assets/Carat-V3.png';
 import CaratV4 from '../assets/CaratHome.jpg'
-import CraieDesign from '../assets/CraieDesign1.png';
-import CraieDesign2 from '../assets/CraieDesign2.png';
-import CraieDesign3 from '../assets/CraieDesignConnect.png';
-import CraieDesign4 from '../assets/CraieDesignForm.png';
+import CraieDesign from '../assets/Craiedesign1.png';
+import CraieDesign2 from '../assets/Craiedesign2.png';
+import CraieDesign3 from '../assets/CraiedesignConnect.png';
+import CraieDesign4 from '../assets/CraiedesignForm.png';
 import Norstone from '../assets/NortStone1.png';
 import Norstone2 from '../assets/NortStone2.png';
 import Norstone3 from '../assets/NORSTONE-STYLE-F.jpg';
