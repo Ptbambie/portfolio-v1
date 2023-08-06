@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './reaWebdesign.css';
 import Carat from '../assets/CaratV1.png';
 import CaratV2 from '../assets/CaratV2.png';
 import CaratV3 from '../assets/Carat-V3.png';
@@ -16,6 +15,7 @@ import Norstone5 from '../assets/NORSTONE-STYLE-D1.jpg';
 import StandFord from '../assets/StandFord.png';
 import StandFord2 from '../assets/Standford.jpg';
 
+import './reaWebdesign.css';
 const projects = [
     {
       title: 'Carat',
