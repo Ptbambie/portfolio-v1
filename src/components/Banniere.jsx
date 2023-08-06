@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaRegEye, FaCode, FaBullhorn } from "react-icons/fa";
-import { CgScreen} from "react-icons/Cg";
+import {MdOutlineDesktopWindows} from "react-icons/md";
 import './banniere.css'
 
 const Banniere = () => {
@@ -13,7 +13,7 @@ const Banniere = () => {
           <p>Création d’identité graphique, logos, chartes graphiques, visuels et documents. Typographie, dessin vectoriel, retouche photo.</p>
         </Link>
         <Link to= "/graphisme" className='btn-webdesign'>
-          <h3><CgScreen className='style-btn'/>Webdesign</h3>
+          <h3><MdOutlineDesktopWindows className='style-btn'/>Webdesign</h3>
           <p>Création de thèmes graphiques et d’interfaces web. Responsive design. Ergonomie. Développement front-end selon les standards W3C.</p>
         </Link>
         <Link to="siteWeb" className='btn-website'>
